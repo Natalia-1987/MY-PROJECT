@@ -28,16 +28,15 @@ person.print_info()
 class Employee(Person):
     def __init__(self, name, age, gender, salary):
         super().__init__(name, age, gender)
-        self._bonus = 0
         self._salary = salary
 
     # _salary (с одним подчеркиванием) – режим доступа protected (служит для обращения внутри класса и во всех его дочерних классах)
 
-    def set_salary(self, bonus):
-        self._bonus = bonus
+    def set_salary(self, new_salary):
+        self._salary = new_salary
 
     def get_salary(self):
-        return self._bonus + self._salary
+        return self._salary
 
 
 employee = Employee("nick_name", 20, "W", 2000)
