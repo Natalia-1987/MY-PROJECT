@@ -12,5 +12,5 @@ lectures, as well as completed homework assignments.
 To clone this repository to your computer, follow these steps:
 
 ```bash
-git clone https://git.slygods.com/sp-int/automation-course.git
-cd automation-course
+git clone https://github.com/Natalia-1987/MY-PROJECT.git
+cd MY-PROJECT
