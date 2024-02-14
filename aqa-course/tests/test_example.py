@@ -20,6 +20,7 @@ def browser():
     "Click", и этот элемент отображается. Если элемент найден и отображается, то утверждение успешно пройдено, 
     в противном случае тест будет считаться неудачным."""
 
+
 @allure.parent_suite("parent suite - Browser")
 @allure.feature('Simple button')
 @allure.story('displayed button by link text')
